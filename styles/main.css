@@ -1,0 +1,41 @@
+head {
+	width: 100%
+}
+body {
+	width: 100%
+}
+
+#bg {
+    text-align: center;
+    background-image: url('../imgs/bg.jpeg');
+		background-repeat: no-repeat;
+		background-position: top;
+		background-attachment: scroll;
+		background-color: #000;
+    height: 350px;
+}
+
+.main {
+	padding: 4rem;
+}
+
+.sec {
+	padding: 2rem;
+	width: 80%;
+	max-width: 300rem;
+	margin: 0 auto;
+}
+
+.btn-pos {
+	float: right;
+}
+
+.btn-pos:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.sticker {
+	width: 10rem;
+}
